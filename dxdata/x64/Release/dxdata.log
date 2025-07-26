@@ -1,0 +1,426 @@
+﻿  pch.cpp
+  animationModel.cpp
+  audio.cpp
+  choicescene.cpp
+  enddraw.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  particleEmitter.cpp
+  replayStone.cpp
+  stone.cpp
+  camera.cpp
+  gamescene.cpp
+  ilustTitle.cpp
+  input.cpp
+  loadanim.cpp
+  loadilust.cpp
+  loadScene.cpp
+  main.cpp
+  manager.cpp
+  modelRenderer.cpp
+  polygon2D.cpp
+  renderer.cpp
+  resultscene.cpp
+  resultilust.cpp
+  score.cpp
+  shadow2D.cpp
+  shadowvolume.cpp
+  skydome.cpp
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\audio.cpp(14,8): warning C4101: 'dwChannelMask': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/audio.cpp' をコンパイルしています)
+  
+  slingshot.cpp
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/choicescene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\animationModel.cpp(191,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  (ソース ファイル '/animationModel.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\animationModel.cpp(316,20): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  (ソース ファイル '/animationModel.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/input.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/particleEmitter.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/slingshot.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/particleEmitter.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\particleEmitter.cpp(72,2): warning C4154: 配列の delete が定義されていません。配列は、ポインターに変換されます。
+  (ソース ファイル '/particleEmitter.cpp' をコンパイルしています)
+  
+  splasheEmitter.cpp
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/manager.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/shadowvolume.cpp' をコンパイルしています)
+  
+  stonechoice.cpp
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/slingshot.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/shadow2D.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.h(78,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/slingshot.cpp' をコンパイルしています)
+  
+  terrain.cpp
+  titlescene.cpp
+  transform.cpp
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/manager.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/shadowvolume.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.h(78,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/terrain.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/splasheEmitter.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.cpp(453,23): warning C4267: '=': 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+  (ソース ファイル '/terrain.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.cpp(454,24): warning C4267: '=': 'size_t' から 'unsigned int' に変換しました。データが失われているかもしれません。
+  (ソース ファイル '/terrain.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.cpp(469,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  (ソース ファイル '/terrain.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.cpp(481,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  (ソース ファイル '/terrain.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.cpp(483,22): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  (ソース ファイル '/terrain.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.cpp(526,21): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  (ソース ファイル '/terrain.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.cpp(528,22): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+  (ソース ファイル '/terrain.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.cpp(78,18): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/manager.cpp' をコンパイルしています)
+  
+  verticalGauge.cpp
+  water.cpp
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.cpp(136,31): warning C4101: 'e': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/manager.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/input.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/loadanim.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/stonechoice.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/titlescene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/resultscene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/main.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/camera.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/stonechoice.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/loadanim.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/splasheEmitter.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\splasheEmitter.cpp(185,27): warning C4101: 'rot': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/splasheEmitter.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/loadScene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/gamescene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\renderer.cpp(88,15): warning C4244: '初期化中': 'SIZE_T' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/renderer.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/titlescene.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/camera.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.h(78,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/titlescene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/resultscene.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.h(78,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/resultscene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/main.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/replayStone.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/stone.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/choicescene.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.h(78,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/choicescene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/stone.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/replayStone.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/gamescene.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.h(78,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/stone.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.h(78,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/gamescene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/loadScene.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/skydome.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  (ソース ファイル '/loadScene.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44):
+      テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
+          C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\loadScene.cpp(12,2):
+          コンパイル対象の関数 テンプレート インスタンス化 'T *Scene::AddGameObject<Camera>(unsigned int)' のリファレンスを確認してください
+          with
+          [
+              T=Camera
+          ]
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\terrain.h(78,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/replayStone.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/skydome.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\skydome.cpp(4,10): warning C4067: プリプロセッサ ディレクティブの後に余分な文字がありました - 改行が必要です
+  (ソース ファイル '/skydome.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\water.h(68,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/slingshot.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\water.h(68,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/resultscene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\water.h(68,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/water.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\slingshot.cpp(191,40): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/slingshot.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\slingshot.cpp(195,19): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/slingshot.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\slingshot.cpp(202,22): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/slingshot.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  (ソース ファイル '/slingshot.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44):
+      テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
+          C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\slingshot.cpp(24,18):
+          コンパイル対象の関数 テンプレート インスタンス化 'T *Scene::AddGameObject<Stone>(unsigned int)' のリファレンスを確認してください
+          with
+          [
+              T=Stone
+          ]
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\resultscene.cpp(22,69): warning C4305: '引数': 'double' から 'float' へ切り詰めます。
+  (ソース ファイル '/resultscene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\resultscene.cpp(40,62): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/resultscene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  (ソース ファイル '/resultscene.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44):
+      テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
+          C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\resultscene.cpp(20,2):
+          コンパイル対象の関数 テンプレート インスタンス化 'T *Scene::AddGameObject<ResultIlust>(unsigned int)' のリファレンスを確認してください
+          with
+          [
+              T=ResultIlust
+          ]
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\water.h(68,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/stone.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\water.h(68,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/titlescene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/water.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\water.h(68,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/choicescene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\water.h(68,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/replayStone.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/water.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\water.h(68,13): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/gamescene.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  (ソース ファイル '/titlescene.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44):
+      テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
+          C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\titlescene.cpp(33,13):
+          コンパイル対象の関数 テンプレート インスタンス化 'T *Scene::AddGameObject<Camera>(unsigned int)' のリファレンスを確認してください
+          with
+          [
+              T=Camera
+          ]
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  (ソース ファイル '/choicescene.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44):
+      テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
+          C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\choicescene.cpp(22,13):
+          コンパイル対象の関数 テンプレート インスタンス化 'T *Scene::AddGameObject<Camera>(unsigned int)' のリファレンスを確認してください
+          with
+          [
+              T=Camera
+          ]
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\stone.cpp(67,12): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/stone.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\stone.cpp(114,11): warning C4101: 'calculatedFnormal': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/stone.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  (ソース ファイル '/gamescene.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44):
+      テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
+          C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\gamescene.cpp(19,13):
+          コンパイル対象の関数 テンプレート インスタンス化 'T *Scene::AddGameObject<Camera>(unsigned int)' のリファレンスを確認してください
+          with
+          [
+              T=Camera
+          ]
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  (ソース ファイル '/stone.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44):
+      テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
+          C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\stone.cpp(232,23):
+          コンパイル対象の関数 テンプレート インスタンス化 'T *Scene::AddGameObject<splasheEmitter>(unsigned int)' のリファレンスを確認してください
+          with
+          [
+              T=splasheEmitter
+          ]
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\replayStone.cpp(67,12): warning C4244: 'return': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/replayStone.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\replayStone.cpp(112,11): warning C4101: 'calculatedFnormal': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/replayStone.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44): warning C4267: '引数': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  (ソース ファイル '/replayStone.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(49,44):
+      テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
+          C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\replayStone.cpp(230,23):
+          コンパイル対象の関数 テンプレート インスタンス化 'T *Scene::AddGameObject<splasheEmitter>(unsigned int)' のリファレンスを確認してください
+          with
+          [
+              T=splasheEmitter
+          ]
+  
+  コード生成しています。
+  75 of 2080 functions ( 3.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    123 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+DirectXTex_Release.lib(DirectXTexImage.obj) : warning LNK4099: PDB 'DirectXTex.pdb' が 'DirectXTex_Release.lib(DirectXTexImage.obj)' で、または 'C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Release\DirectXTex.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Release.lib(DirectXTexWIC.obj) : warning LNK4099: PDB 'DirectXTex.pdb' が 'DirectXTex_Release.lib(DirectXTexWIC.obj)' で、または 'C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Release\DirectXTex.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Release.lib(DirectXTexD3D11.obj) : warning LNK4099: PDB 'DirectXTex.pdb' が 'DirectXTex_Release.lib(DirectXTexD3D11.obj)' で、または 'C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Release\DirectXTex.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Release.lib(DirectXTexDDS.obj) : warning LNK4099: PDB 'DirectXTex.pdb' が 'DirectXTex_Release.lib(DirectXTexDDS.obj)' で、または 'C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Release\DirectXTex.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Release.lib(DirectXTexUtil.obj) : warning LNK4099: PDB 'DirectXTex.pdb' が 'DirectXTex_Release.lib(DirectXTexUtil.obj)' で、または 'C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Release\DirectXTex.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Release.lib(DirectXTexConvert.obj) : warning LNK4099: PDB 'DirectXTex.pdb' が 'DirectXTex_Release.lib(DirectXTexConvert.obj)' で、または 'C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Release\DirectXTex.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Release.lib(DirectXTexCompress.obj) : warning LNK4099: PDB 'DirectXTex.pdb' が 'DirectXTex_Release.lib(DirectXTexCompress.obj)' で、または 'C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Release\DirectXTex.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Release.lib(DirectXTexMipMaps.obj) : warning LNK4099: PDB 'DirectXTex.pdb' が 'DirectXTex_Release.lib(DirectXTexMipMaps.obj)' で、または 'C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Release\DirectXTex.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Release.lib(BC.obj) : warning LNK4099: PDB 'DirectXTex.pdb' が 'DirectXTex_Release.lib(BC.obj)' で、または 'C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Release\DirectXTex.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Release.lib(BC4BC5.obj) : warning LNK4099: PDB 'DirectXTex.pdb' が 'DirectXTex_Release.lib(BC4BC5.obj)' で、または 'C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Release\DirectXTex.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Release.lib(BC6HBC7.obj) : warning LNK4099: PDB 'DirectXTex.pdb' が 'DirectXTex_Release.lib(BC6HBC7.obj)' で、または 'C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Release\DirectXTex.pdb' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+  dxdata.vcxproj -> C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Release\DxFramework.exe
+  'pwsh.exe' は、内部コマンドまたは外部コマンド、
+  操作可能なプログラムまたはバッチ ファイルとして認識されていません。

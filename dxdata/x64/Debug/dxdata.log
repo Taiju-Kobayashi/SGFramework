@@ -1,0 +1,35 @@
+﻿  freePrefs.cpp
+  manager.cpp
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\scene.h(172,37): warning C4101: 'ex': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/manager.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\freePrefs.cpp(63,19): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  (ソース ファイル '/freePrefs.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\freePrefs.cpp(64,21): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  (ソース ファイル '/freePrefs.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\freePrefs.cpp(65,22): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  (ソース ファイル '/freePrefs.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\freePrefs.cpp(197,24): warning C4244: '引数': 'float' から 'const _Elem' への変換です。データが失われる可能性があります。
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\freePrefs.cpp(197,24): warning C4244:         with
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\freePrefs.cpp(197,24): warning C4244:         [
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\freePrefs.cpp(197,24): warning C4244:             _Elem=char
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\freePrefs.cpp(197,24): warning C4244:         ]
+  (ソース ファイル '/freePrefs.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(102,4): warning C4150: 'DataInstance' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+  (ソース ファイル '/manager.cpp' をコンパイルしています)
+      C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.h(18,7):
+      'DataInstance' の宣言を確認してください
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.cpp(77,18): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+  (ソース ファイル '/manager.cpp' をコンパイルしています)
+  
+C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\manager.cpp(135,31): warning C4101: 'e': ローカル変数は 1 度も使われていません。
+  (ソース ファイル '/manager.cpp' をコンパイルしています)
+  
+  dxdata.vcxproj -> C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Debug\DxFramework.exe
+  'pwsh.exe' は、内部コマンドまたは外部コマンド、
+  操作可能なプログラムまたはバッチ ファイルとして認識されていません。

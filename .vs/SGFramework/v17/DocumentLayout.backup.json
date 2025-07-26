@@ -1,0 +1,1295 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\posteffectobject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\posteffectobject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\gamescene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\gamescene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\freePrefs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\freePrefs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\utility||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.26100.0\\ucrt\\startup\\assert.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\transform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\transform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\stone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\stone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\stone.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\stone.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\freePrefs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\freePrefs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\manager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\skydome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\enddraw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\enddraw.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\gamescene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\gamescene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\modelRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\modelRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\loadScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultscene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\resultscene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\waveVS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\shader\\waveVS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\particlePS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\shader\\particlePS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\unlitTexturePS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\shader\\unlitTexturePS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shadowvolume.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\shadowvolume.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\wavePS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\shader\\wavePS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\vertexLightingVS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\shader\\vertexLightingVS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\choicescene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\choicescene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\vertexLightingPS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\shader\\vertexLightingPS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\terrain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\terrain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\water.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\water.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\terrain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\terrain.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\envMappingPS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\shader\\envMappingPS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\water.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\water.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\splasheEmitter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\splasheEmitter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\xmextended.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\xmextended.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadanim.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\loadanim.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadilust.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\loadilust.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\polygon2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\polygon2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultilust.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\resultilust.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\replayStone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\replayStone.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\slingshot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\slingshot.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\particleEmitter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\particleEmitter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\slingshot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\slingshot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\ilustTitle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\ilustTitle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\titlescene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\titlescene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\transform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\transform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\ilustTitle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\ilustTitle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultilust.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\resultilust.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\replayStone.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\replayStone.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultscene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\resultscene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultInstance.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\resultInstance.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\modelRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\modelRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\stonechoice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\stonechoice.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\dataInstance.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\dataInstance.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\verticalGauge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\verticalGauge.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\verticalGauge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\verticalGauge.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shadow2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\shadow2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\titlescene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\titlescene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\choicescene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\choicescene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\skydome.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shadowvolume.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\shadowvolume.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\blendTexPS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\shader\\blendTexPS.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\score.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\score.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\particleEmitter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\particleEmitter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadilust.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\loadilust.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\loadScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadanim.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\loadanim.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\stonechoice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\stonechoice.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\animationModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\animationModel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\polygon2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\polygon2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\audio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\audio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\enddraw.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\enddraw.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\gameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:dxdata\\gameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 37,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "transform.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\transform.h",
+              "RelativeDocumentMoniker": "dxdata\\transform.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\transform.h",
+              "RelativeToolTip": "dxdata\\transform.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:09:16.979Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "input.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\input.cpp",
+              "RelativeDocumentMoniker": "dxdata\\input.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\input.cpp",
+              "RelativeToolTip": "dxdata\\input.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-01T14:45:45.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "stone.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\stone.cpp",
+              "RelativeDocumentMoniker": "dxdata\\stone.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\stone.cpp",
+              "RelativeToolTip": "dxdata\\stone.cpp",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAlwLkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-10T12:08:02.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "stone.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\stone.h",
+              "RelativeDocumentMoniker": "dxdata\\stone.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\stone.h",
+              "RelativeToolTip": "dxdata\\stone.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAawCQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:12:44.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "freePrefs.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\freePrefs.cpp",
+              "RelativeDocumentMoniker": "dxdata\\freePrefs.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\freePrefs.cpp",
+              "RelativeToolTip": "dxdata\\freePrefs.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-30T02:42:10.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "renderer.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\renderer.cpp",
+              "RelativeDocumentMoniker": "dxdata\\renderer.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\renderer.cpp",
+              "RelativeToolTip": "dxdata\\renderer.cpp",
+              "ViewState": "AgIAAGoCAAAAAAAAAAAAAHoCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-11T07:29:43.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\main.cpp",
+              "RelativeDocumentMoniker": "dxdata\\main.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\main.cpp",
+              "RelativeToolTip": "dxdata\\main.cpp",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-02T06:10:41.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "manager.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\manager.cpp",
+              "RelativeDocumentMoniker": "dxdata\\manager.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\manager.cpp",
+              "RelativeToolTip": "dxdata\\manager.cpp",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-11T07:26:21.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "camera.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\camera.cpp",
+              "RelativeDocumentMoniker": "dxdata\\camera.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\camera.cpp",
+              "RelativeToolTip": "dxdata\\camera.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T09:23:54.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "skydome.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\skydome.cpp",
+              "RelativeDocumentMoniker": "dxdata\\skydome.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\skydome.cpp",
+              "RelativeToolTip": "dxdata\\skydome.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-15T06:51:11.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "enddraw.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\enddraw.cpp",
+              "RelativeDocumentMoniker": "dxdata\\enddraw.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\enddraw.cpp",
+              "RelativeToolTip": "dxdata\\enddraw.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-08T01:02:11.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "renderer.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\renderer.h",
+              "RelativeDocumentMoniker": "dxdata\\renderer.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\renderer.h",
+              "RelativeToolTip": "dxdata\\renderer.h",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:04:44.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "gamescene.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\gamescene.cpp",
+              "RelativeDocumentMoniker": "dxdata\\gamescene.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\gamescene.cpp",
+              "RelativeToolTip": "dxdata\\gamescene.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-10T16:30:42.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "freePrefs.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\freePrefs.h",
+              "RelativeDocumentMoniker": "dxdata\\freePrefs.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\freePrefs.h",
+              "RelativeToolTip": "dxdata\\freePrefs.h",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-28T05:44:32.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "modelRenderer.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\modelRenderer.cpp",
+              "RelativeDocumentMoniker": "dxdata\\modelRenderer.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\modelRenderer.cpp",
+              "RelativeToolTip": "dxdata\\modelRenderer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-11T07:29:40.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "loadScene.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadScene.cpp",
+              "RelativeDocumentMoniker": "dxdata\\loadScene.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadScene.cpp",
+              "RelativeToolTip": "dxdata\\loadScene.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-10T16:30:41.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "resultscene.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultscene.cpp",
+              "RelativeDocumentMoniker": "dxdata\\resultscene.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultscene.cpp",
+              "RelativeToolTip": "dxdata\\resultscene.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAQwCoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-13T08:02:31.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "waveVS.hlsl",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\waveVS.hlsl",
+              "RelativeDocumentMoniker": "dxdata\\shader\\waveVS.hlsl",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\waveVS.hlsl",
+              "RelativeToolTip": "dxdata\\shader\\waveVS.hlsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-07-06T13:54:57.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "particlePS.hlsl",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\particlePS.hlsl",
+              "RelativeDocumentMoniker": "dxdata\\shader\\particlePS.hlsl",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\particlePS.hlsl",
+              "RelativeToolTip": "dxdata\\shader\\particlePS.hlsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-07-06T13:55:00.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "unlitTexturePS.hlsl",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\unlitTexturePS.hlsl",
+              "RelativeDocumentMoniker": "dxdata\\shader\\unlitTexturePS.hlsl",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\unlitTexturePS.hlsl",
+              "RelativeToolTip": "dxdata\\shader\\unlitTexturePS.hlsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-07-06T13:55:00.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "shadowvolume.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shadowvolume.cpp",
+              "RelativeDocumentMoniker": "dxdata\\shadowvolume.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shadowvolume.cpp",
+              "RelativeToolTip": "dxdata\\shadowvolume.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-06T13:55:15.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "wavePS.hlsl",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\wavePS.hlsl",
+              "RelativeDocumentMoniker": "dxdata\\shader\\wavePS.hlsl",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\wavePS.hlsl",
+              "RelativeToolTip": "dxdata\\shader\\wavePS.hlsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-07-06T13:54:56.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "vertexLightingVS.hlsl",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\vertexLightingVS.hlsl",
+              "RelativeDocumentMoniker": "dxdata\\shader\\vertexLightingVS.hlsl",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\vertexLightingVS.hlsl",
+              "RelativeToolTip": "dxdata\\shader\\vertexLightingVS.hlsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-07-06T13:54:53.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "choicescene.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\choicescene.cpp",
+              "RelativeDocumentMoniker": "dxdata\\choicescene.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\choicescene.cpp",
+              "RelativeToolTip": "dxdata\\choicescene.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-10T16:30:43.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "vertexLightingPS.hlsl",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\vertexLightingPS.hlsl",
+              "RelativeDocumentMoniker": "dxdata\\shader\\vertexLightingPS.hlsl",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\vertexLightingPS.hlsl",
+              "RelativeToolTip": "dxdata\\shader\\vertexLightingPS.hlsl",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-07-06T13:54:43.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "utility",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\utility",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\utility",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\utility",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\utility",
+              "ViewState": "AgIAAPICAAAAAAAAAAAAwAQDAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-28T11:31:25.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "terrain.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\terrain.cpp",
+              "RelativeDocumentMoniker": "dxdata\\terrain.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\terrain.cpp",
+              "RelativeToolTip": "dxdata\\terrain.cpp",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAcwIEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-15T18:40:55.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "water.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\water.cpp",
+              "RelativeDocumentMoniker": "dxdata\\water.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\water.cpp",
+              "RelativeToolTip": "dxdata\\water.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-10T13:58:59.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "scene.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\scene.h",
+              "RelativeDocumentMoniker": "dxdata\\scene.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\scene.h",
+              "RelativeToolTip": "dxdata\\scene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:04:13.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "terrain.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\terrain.h",
+              "RelativeDocumentMoniker": "dxdata\\terrain.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\terrain.h",
+              "RelativeToolTip": "dxdata\\terrain.h",
+              "ViewState": "AgIAADIAAAAAAAAAAAAMwEkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:11:45.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "envMappingPS.hlsl",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\envMappingPS.hlsl",
+              "RelativeDocumentMoniker": "dxdata\\shader\\envMappingPS.hlsl",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\envMappingPS.hlsl",
+              "RelativeToolTip": "dxdata\\shader\\envMappingPS.hlsl",
+              "ViewState": "AgIAACAAAAAAAAAAAAAawDQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-06-10T18:12:25.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "water.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\water.h",
+              "RelativeDocumentMoniker": "dxdata\\water.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\water.h",
+              "RelativeToolTip": "dxdata\\water.h",
+              "ViewState": "AgIAACcAAAAAAAAAAAAMwD4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:10:46.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "splasheEmitter.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\splasheEmitter.h",
+              "RelativeDocumentMoniker": "dxdata\\splasheEmitter.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\splasheEmitter.h",
+              "RelativeToolTip": "dxdata\\splasheEmitter.h",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:13:36.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "xmextended.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\xmextended.h",
+              "RelativeDocumentMoniker": "dxdata\\xmextended.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\xmextended.h",
+              "RelativeToolTip": "dxdata\\xmextended.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:04:07.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "main.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\main.h",
+              "RelativeDocumentMoniker": "dxdata\\main.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\main.h",
+              "RelativeToolTip": "dxdata\\main.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:06:01.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "input.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\input.h",
+              "RelativeDocumentMoniker": "dxdata\\input.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\input.h",
+              "RelativeToolTip": "dxdata\\input.h",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAHIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-01T15:11:16.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "manager.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\manager.h",
+              "RelativeDocumentMoniker": "dxdata\\manager.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\manager.h",
+              "RelativeToolTip": "dxdata\\manager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T06:41:44.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "posteffectobject.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\posteffectobject.h",
+              "RelativeDocumentMoniker": "dxdata\\posteffectobject.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\posteffectobject.h",
+              "RelativeToolTip": "dxdata\\posteffectobject.h",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:05:18.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "loadanim.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadanim.cpp",
+              "RelativeDocumentMoniker": "dxdata\\loadanim.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadanim.cpp",
+              "RelativeToolTip": "dxdata\\loadanim.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-17T00:24:49.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "loadilust.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadilust.cpp",
+              "RelativeDocumentMoniker": "dxdata\\loadilust.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadilust.cpp",
+              "RelativeToolTip": "dxdata\\loadilust.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-17T00:24:51.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "polygon2D.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\polygon2D.cpp",
+              "RelativeDocumentMoniker": "dxdata\\polygon2D.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\polygon2D.cpp",
+              "RelativeToolTip": "dxdata\\polygon2D.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-17T00:24:52.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "resultilust.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultilust.h",
+              "RelativeDocumentMoniker": "dxdata\\resultilust.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultilust.h",
+              "RelativeToolTip": "dxdata\\resultilust.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:15:43.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "replayStone.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\replayStone.cpp",
+              "RelativeDocumentMoniker": "dxdata\\replayStone.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\replayStone.cpp",
+              "RelativeToolTip": "dxdata\\replayStone.cpp",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-15T06:37:17.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "slingshot.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\slingshot.h",
+              "RelativeDocumentMoniker": "dxdata\\slingshot.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\slingshot.h",
+              "RelativeToolTip": "dxdata\\slingshot.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:14:07.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "particleEmitter.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\particleEmitter.cpp",
+              "RelativeDocumentMoniker": "dxdata\\particleEmitter.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\particleEmitter.cpp",
+              "RelativeToolTip": "dxdata\\particleEmitter.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAQwEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-01T14:30:15.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "slingshot.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\slingshot.cpp",
+              "RelativeDocumentMoniker": "dxdata\\slingshot.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\slingshot.cpp",
+              "RelativeToolTip": "dxdata\\slingshot.cpp",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAALkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-11T08:51:25.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ilustTitle.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\ilustTitle.cpp",
+              "RelativeDocumentMoniker": "dxdata\\ilustTitle.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\ilustTitle.cpp",
+              "RelativeToolTip": "dxdata\\ilustTitle.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-09T09:23:53.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "gamescene.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\gamescene.h",
+              "RelativeDocumentMoniker": "dxdata\\gamescene.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\gamescene.h",
+              "RelativeToolTip": "dxdata\\gamescene.h",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:09:12.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "titlescene.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\titlescene.cpp",
+              "RelativeDocumentMoniker": "dxdata\\titlescene.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\titlescene.cpp",
+              "RelativeToolTip": "dxdata\\titlescene.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-10T09:57:47.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "transform.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\transform.cpp",
+              "RelativeDocumentMoniker": "dxdata\\transform.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\transform.cpp",
+              "RelativeToolTip": "dxdata\\transform.cpp",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-10T14:28:06.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ilustTitle.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\ilustTitle.h",
+              "RelativeDocumentMoniker": "dxdata\\ilustTitle.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\ilustTitle.h",
+              "RelativeToolTip": "dxdata\\ilustTitle.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:17:34.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "camera.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\camera.h",
+              "RelativeDocumentMoniker": "dxdata\\camera.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\camera.h",
+              "RelativeToolTip": "dxdata\\camera.h",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:17:54.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "resultilust.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultilust.cpp",
+              "RelativeDocumentMoniker": "dxdata\\resultilust.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultilust.cpp",
+              "RelativeToolTip": "dxdata\\resultilust.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-15T09:30:41.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "replayStone.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\replayStone.h",
+              "RelativeDocumentMoniker": "dxdata\\replayStone.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\replayStone.h",
+              "RelativeToolTip": "dxdata\\replayStone.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-15T06:37:01.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "resultscene.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultscene.h",
+              "RelativeDocumentMoniker": "dxdata\\resultscene.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultscene.h",
+              "RelativeToolTip": "dxdata\\resultscene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:09:09.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "resultInstance.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultInstance.h",
+              "RelativeDocumentMoniker": "dxdata\\resultInstance.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\resultInstance.h",
+              "RelativeToolTip": "dxdata\\resultInstance.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:26:13.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "modelRenderer.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\modelRenderer.h",
+              "RelativeDocumentMoniker": "dxdata\\modelRenderer.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\modelRenderer.h",
+              "RelativeToolTip": "dxdata\\modelRenderer.h",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAFUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:10:09.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "stonechoice.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\stonechoice.cpp",
+              "RelativeDocumentMoniker": "dxdata\\stonechoice.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\stonechoice.cpp",
+              "RelativeToolTip": "dxdata\\stonechoice.cpp",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEMAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-11T08:51:09.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "dataInstance.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\dataInstance.h",
+              "RelativeDocumentMoniker": "dxdata\\dataInstance.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\dataInstance.h",
+              "RelativeToolTip": "dxdata\\dataInstance.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:08:34.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "verticalGauge.cpp",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\verticalGauge.cpp",
+              "RelativeDocumentMoniker": "dxdata\\verticalGauge.cpp",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\verticalGauge.cpp",
+              "RelativeToolTip": "dxdata\\verticalGauge.cpp",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-12T06:04:51.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "verticalGauge.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\verticalGauge.h",
+              "RelativeDocumentMoniker": "dxdata\\verticalGauge.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\verticalGauge.h",
+              "RelativeToolTip": "dxdata\\verticalGauge.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:11:24.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "shadow2D.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shadow2D.h",
+              "RelativeDocumentMoniker": "dxdata\\shadow2D.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shadow2D.h",
+              "RelativeToolTip": "dxdata\\shadow2D.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:14:51.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "titlescene.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\titlescene.h",
+              "RelativeDocumentMoniker": "dxdata\\titlescene.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\titlescene.h",
+              "RelativeToolTip": "dxdata\\titlescene.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:09:05.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "choicescene.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\choicescene.h",
+              "RelativeDocumentMoniker": "dxdata\\choicescene.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\choicescene.h",
+              "RelativeToolTip": "dxdata\\choicescene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:04:05.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "skydome.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\skydome.h",
+              "RelativeDocumentMoniker": "dxdata\\skydome.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\skydome.h",
+              "RelativeToolTip": "dxdata\\skydome.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:14:29.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "shadowvolume.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shadowvolume.h",
+              "RelativeDocumentMoniker": "dxdata\\shadowvolume.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shadowvolume.h",
+              "RelativeToolTip": "dxdata\\shadowvolume.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:14:43.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "assert.cpp",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.26100.0\\ucrt\\startup\\assert.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.26100.0\\ucrt\\startup\\assert.cpp",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.26100.0\\ucrt\\startup\\assert.cpp",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Source\\10.0.26100.0\\ucrt\\startup\\assert.cpp",
+              "ViewState": "AgIAAG8BAAAAAAAAAAArwIEBAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-10T18:04:02.124Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "blendTexPS.hlsl",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\blendTexPS.hlsl",
+              "RelativeDocumentMoniker": "dxdata\\shader\\blendTexPS.hlsl",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\shader\\blendTexPS.hlsl",
+              "RelativeToolTip": "dxdata\\shader\\blendTexPS.hlsl",
+              "ViewState": "AgIAABwAAAAAAAAAAAAawBgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2025-06-10T18:08:02.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "score.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\score.h",
+              "RelativeDocumentMoniker": "dxdata\\score.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\score.h",
+              "RelativeToolTip": "dxdata\\score.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:15:17.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "particleEmitter.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\particleEmitter.h",
+              "RelativeDocumentMoniker": "dxdata\\particleEmitter.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\particleEmitter.h",
+              "RelativeToolTip": "dxdata\\particleEmitter.h",
+              "ViewState": "AgIAABcAAAAAAAAAAAApwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:16:03.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "loadilust.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadilust.h",
+              "RelativeDocumentMoniker": "dxdata\\loadilust.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadilust.h",
+              "RelativeToolTip": "dxdata\\loadilust.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:16:42.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "loadScene.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadScene.h",
+              "RelativeDocumentMoniker": "dxdata\\loadScene.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadScene.h",
+              "RelativeToolTip": "dxdata\\loadScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:09:10.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "loadanim.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadanim.h",
+              "RelativeDocumentMoniker": "dxdata\\loadanim.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\loadanim.h",
+              "RelativeToolTip": "dxdata\\loadanim.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:17:07.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "stonechoice.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\stonechoice.h",
+              "RelativeDocumentMoniker": "dxdata\\stonechoice.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\stonechoice.h",
+              "RelativeToolTip": "dxdata\\stonechoice.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:12:33.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "animationModel.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\animationModel.h",
+              "RelativeDocumentMoniker": "dxdata\\animationModel.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\animationModel.h",
+              "RelativeToolTip": "dxdata\\animationModel.h",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:10:32.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "component.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\component.h",
+              "RelativeDocumentMoniker": "dxdata\\component.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\component.h",
+              "RelativeToolTip": "dxdata\\component.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:10:27.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "polygon2D.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\polygon2D.h",
+              "RelativeDocumentMoniker": "dxdata\\polygon2D.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\polygon2D.h",
+              "RelativeToolTip": "dxdata\\polygon2D.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:09:39.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "audio.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\audio.h",
+              "RelativeDocumentMoniker": "dxdata\\audio.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\audio.h",
+              "RelativeToolTip": "dxdata\\audio.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:08:36.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "enddraw.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\enddraw.h",
+              "RelativeDocumentMoniker": "dxdata\\enddraw.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\enddraw.h",
+              "RelativeToolTip": "dxdata\\enddraw.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:08:28.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "gameObject.h",
+              "DocumentMoniker": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\gameObject.h",
+              "RelativeDocumentMoniker": "dxdata\\gameObject.h",
+              "ToolTip": "C:\\Users\\snake\\Documents\\GitHub\\SGFramework\\dxdata\\gameObject.h",
+              "RelativeToolTip": "dxdata\\gameObject.h",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAHUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-06T12:07:37.226Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

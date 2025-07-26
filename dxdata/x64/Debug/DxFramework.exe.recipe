@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\x64\Debug\DxFramework.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\blendTexPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\defalutPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\defalutVS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\envMappingPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\envMappingVS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\particlePS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\particleVS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\vertexLightingPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\vertexLightingVS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\verticallGaugePS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\wavePS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\waveVS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\unlitTexturePS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\snake\Documents\GitHub\DxFramework\SGFramework\dxdata\shader\unlitTextureVS.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

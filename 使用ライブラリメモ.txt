@@ -1,0 +1,11 @@
+使用しているライブラリメモ(試しに導入したのも含め)
+===================================================
+<mimalloc>メモリアロケータ
+https://github.com/microsoft/mimalloc
+
+
+<JoyShockLibrary-plus-HDRumble>コントローラー入力処理
+https://github.com/MIZUSHIKI/JoyShockLibrary-plus-HDRumble?tab=readme-ov-file#structs
+
+<assimp>3Dモデル読み込み
+https://github.com/assimp/assimp
