@@ -32,16 +32,6 @@
   * **SDK:** Windows 11 SDK
   * **言語:** C++20
 
-## ビルドと実行方法 🚀
-
-1.  このリポジトリをクローンします。
-    ```bash
-    git clone https://github.com/Taiju-Kobayashi/SGFramework.git
-    ```
-2.  `SGFramework.sln` を Visual Studio 2022 で開きます。
-3.  ソリューションの構成を `Debug` または `Release` (x64) に設定します。
-4.  `F5` キーを押してビルドとデバッグを開始するか、`Ctrl+F5` でデバッグなしで開始します。
-
 ## 今後の課題 📝
 
 学習の進捗に応じて、以下の機能の実装を目指しています。
