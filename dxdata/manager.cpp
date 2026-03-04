@@ -10,7 +10,7 @@
 
 #define SAVE_PREFS_FILE "rom/pref/freepref.dat"
 
-//@brief Šî–{FPS@MS
+//@brief åŸºæœ¬FPSã€€MS
 const static int g_framerate = 60;
 const static float g_defalut_frameMS = (1.0f / g_framerate);
 
@@ -58,7 +58,20 @@ void Manager::Init()
 
 void Manager::Uninit()
 {
-	m_scene->UnInit();
+	if (m_loading_thread.joinable()) {
+		m_loading_thread.join();
+	}
+
+	if (m_loaded_scene_result) {
+		m_loaded_scene_result->UnInit();
+		m_loaded_scene_result.reset();
+	}
+
+	if (m_scene) {
+		m_scene->UnInit();
+		m_scene.reset();
+	}
+
 	FreePrefs::Uninit();
 	Audio::UninitMaster();
 	ModelRenderer::UnloadAll();
@@ -69,8 +82,8 @@ void Manager::Uninit()
 void Manager::GameLoop(double deltatime) {
 	
 	//@brief 
-	// ƒuƒŒ[ƒNƒ|ƒCƒ“ƒg“™‚Å‘OƒtƒŒ[ƒ€‚ÆŒ»ƒtƒŒ[ƒ€‚ÌŒo‰ßŠÔ‚ª
-	// ‘å‚«‚È’l‚É‚È‚éÛ‚Édefalut’l‚ğ‘ã“ü‚µ‚Ä—\Šú‚¹‚Ê‹““®‚ğ—\–hB
+	// ãƒ–ãƒ¬ãƒ¼ã‚¯ãƒã‚¤ãƒ³ãƒˆç­‰ã§å‰ãƒ•ãƒ¬ãƒ¼ãƒ ã¨ç¾ãƒ•ãƒ¬ãƒ¼ãƒ ã®çµŒéæ™‚é–“ãŒ
+	// å¤§ããªå€¤ã«ãªã‚‹éš›ã«defalutå€¤ã‚’ä»£å…¥ã—ã¦äºˆæœŸã›ã¬æŒ™å‹•ã‚’äºˆé˜²ã€‚
 	if (g_defalut_frameMS < deltatime)
 		m_delta_time = g_defalut_frameMS;
 	else
@@ -98,7 +111,7 @@ void Manager::Update()
 {
 
 	Input::Update();
-	Renderer::GetRenderer().Begin();//IMGUIg—p‚Ìˆ×
+	Renderer::GetRenderer().Begin();//IMGUIä½¿ç”¨ã®ç‚º
 	m_scene->Update();
 	m_scene->ParentUpdate();
 }
@@ -115,16 +128,16 @@ void Manager::Draw()
 
 
 
-// ”wŒiƒXƒŒƒbƒh‚ÅÀs‚³‚ê‚éÀÛ‚Ìƒ[ƒfƒBƒ“ƒOƒ^ƒXƒN
+// èƒŒæ™¯ã‚¹ãƒ¬ãƒƒãƒ‰ã§å®Ÿè¡Œã•ã‚Œã‚‹å®Ÿéš›ã®ãƒ­ãƒ¼ãƒ‡ã‚£ãƒ³ã‚°ã‚¿ã‚¹ã‚¯
 void Manager::LoadingTask(std::unique_ptr<Scene> scene_to_init) {
-	// ‚±‚ÌŠÖ”ƒXƒR[ƒv“à‚Å scene_to_init ‚ªƒV[ƒ“ƒIƒuƒWƒFƒNƒg‚ÌŠ—LŒ ‚ğ‚Â
+	// ã“ã®é–¢æ•°ã‚¹ã‚³ãƒ¼ãƒ—å†…ã§ scene_to_init ãŒã‚·ãƒ¼ãƒ³ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®æ‰€æœ‰æ¨©ã‚’æŒã¤
 
 	if (!scene_to_init) {
-		// —áŠO“I‚ÈƒP[ƒX‚¾‚ªAnullptr‚ª“n‚³‚ê‚½ê‡‚Ìˆ—
+		// ä¾‹å¤–çš„ãªã‚±ãƒ¼ã‚¹ã ãŒã€nullptrãŒæ¸¡ã•ã‚ŒãŸå ´åˆã®å‡¦ç†
 		std::lock_guard<std::mutex> lock(m_state_mutex);
 		m_load_state = LoadState::Error;
 		m_has_error = true;
-		return; // unique_ptr ‚ÍƒXƒR[ƒv‚ğ”²‚¯‚é‚Æ‚«‚É”jŠü‚³‚ê‚é
+		return; // unique_ptr ã¯ã‚¹ã‚³ãƒ¼ãƒ—ã‚’æŠœã‘ã‚‹ã¨ãã«ç ´æ£„ã•ã‚Œã‚‹
 	}
 
 	bool init_successful = false;
@@ -133,27 +146,27 @@ void Manager::LoadingTask(std::unique_ptr<Scene> scene_to_init) {
 		init_successful = true;
 	}
 	catch (const std::exception& e) {
-		// ‰Šú‰»’†‚É—áŠO‚ª”­¶‚µ‚½ê‡
-		std::lock_guard<std::mutex> lock(m_state_mutex); // ƒGƒ‰[ó‘Ô‚ÌXV‚ğ•ÛŒì
+		// åˆæœŸåŒ–ä¸­ã«ä¾‹å¤–ãŒç™ºç”Ÿã—ãŸå ´åˆ
+		std::lock_guard<std::mutex> lock(m_state_mutex); // ã‚¨ãƒ©ãƒ¼çŠ¶æ…‹ã®æ›´æ–°ã‚’ä¿è­·
 		m_load_state = LoadState::Error;
 		m_has_error = true;
-		// scene_to_init ‚ÍƒXƒR[ƒv‚ğ”²‚¯‚é‚Æ‚«‚É”jŠü‚³‚ê‚éiunique_ptr‚Ì‚¨‚©‚°‚ÅˆÀ‘Sj
-		return; // ƒGƒ‰[”­¶‚Åƒ^ƒXƒNI—¹
+		// scene_to_init ã¯ã‚¹ã‚³ãƒ¼ãƒ—ã‚’æŠœã‘ã‚‹ã¨ãã«ç ´æ£„ã•ã‚Œã‚‹ï¼ˆunique_ptrã®ãŠã‹ã’ã§å®‰å…¨ï¼‰
+		return; // ã‚¨ãƒ©ãƒ¼ç™ºç”Ÿã§ã‚¿ã‚¹ã‚¯çµ‚äº†
 	}
 	catch (...) {
-		// •s–¾‚È—áŠO‚Ìê‡
-		std::lock_guard<std::mutex> lock(m_state_mutex); // ƒGƒ‰[ó‘Ô‚ÌXV‚ğ•ÛŒì
+		// ä¸æ˜ãªä¾‹å¤–ã®å ´åˆ
+		std::lock_guard<std::mutex> lock(m_state_mutex); // ã‚¨ãƒ©ãƒ¼çŠ¶æ…‹ã®æ›´æ–°ã‚’ä¿è­·
 		m_load_state = LoadState::Error;
 		m_has_error = true;
-		// scene_to_init ‚ÍƒXƒR[ƒv‚ğ”²‚¯‚é‚Æ‚«‚É”jŠü‚³‚ê‚é
-		return; // ƒGƒ‰[”­¶‚Åƒ^ƒXƒNI—¹
+		// scene_to_init ã¯ã‚¹ã‚³ãƒ¼ãƒ—ã‚’æŠœã‘ã‚‹ã¨ãã«ç ´æ£„ã•ã‚Œã‚‹
+		return; // ã‚¨ãƒ©ãƒ¼ç™ºç”Ÿã§ã‚¿ã‚¹ã‚¯çµ‚äº†
 	}
 
-	// Init() ‚ª¬Œ÷‚µ‚½ê‡
-	std::lock_guard<std::mutex> lock(m_state_mutex); // Œ‹‰Ê‚Ìó‘ÔXV‚ğ•ÛŒì
+	// Init() ãŒæˆåŠŸã—ãŸå ´åˆ
+	std::lock_guard<std::mutex> lock(m_state_mutex); // çµæœã®çŠ¶æ…‹æ›´æ–°ã‚’ä¿è­·
 	if (init_successful) {
-		m_load_state = LoadState::Loaded; // ƒ[ƒhŠ®—¹ó‘Ô‚É‘JˆÚ
-		m_loaded_scene_result = std::move(scene_to_init); // ‰Šú‰»Ï‚İƒV[ƒ“‚ÌŠ—LŒ ‚ğƒ}ƒl[ƒWƒƒ[‚ÉˆÚ÷
+		m_load_state = LoadState::Loaded; // ãƒ­ãƒ¼ãƒ‰å®Œäº†çŠ¶æ…‹ã«é·ç§»
+		m_loaded_scene_result = std::move(scene_to_init); // åˆæœŸåŒ–æ¸ˆã¿ã‚·ãƒ¼ãƒ³ã®æ‰€æœ‰æ¨©ã‚’ãƒãƒãƒ¼ã‚¸ãƒ£ãƒ¼ã«ç§»è­²
 	}
 } 
 
@@ -161,41 +174,44 @@ void Manager::LoadingTask(std::unique_ptr<Scene> scene_to_init) {
 
 
 void Manager::SwapScene() {
-	std::unique_ptr<Scene> old_scene_to_uninit; // ŒÃ‚¢ƒV[ƒ“‚ÌUnInit/‰ğ•ú—p‚Ìˆê•Ï”
+	std::unique_ptr<Scene> old_scene_to_uninit; // å¤ã„ã‚·ãƒ¼ãƒ³ã®UnInit/è§£æ”¾ç”¨ã®ä¸€æ™‚å¤‰æ•°
 
-	{ // mutex ƒƒbƒN ƒXƒR[ƒv
+	{ // mutex ãƒ­ãƒƒã‚¯ ã‚¹ã‚³ãƒ¼ãƒ—
 		std::lock_guard<std::mutex> lock(m_state_mutex);
 
-		// ƒV[ƒ“ƒXƒƒbƒv—v‹‚ª‚ ‚èA‚©‚Âƒ[ƒh‚ªŠ®—¹ (¬Œ÷‚Ü‚½‚ÍƒGƒ‰[) ‚µ‚Ä‚¢‚é‚©ƒ`ƒFƒbƒN
+		// ã‚·ãƒ¼ãƒ³ã‚¹ãƒ¯ãƒƒãƒ—è¦æ±‚ãŒã‚ã‚Šã€ã‹ã¤ãƒ­ãƒ¼ãƒ‰ãŒå®Œäº† (æˆåŠŸã¾ãŸã¯ã‚¨ãƒ©ãƒ¼) ã—ã¦ã„ã‚‹ã‹ãƒã‚§ãƒƒã‚¯
 		if (!m_scene_swap_flag || (m_load_state != LoadState::Loaded && m_load_state != LoadState::Error)) {
-			// ƒXƒƒbƒvğŒ‚ğ–‚½‚µ‚Ä‚¢‚È‚¢
+			// ã‚¹ãƒ¯ãƒƒãƒ—æ¡ä»¶ã‚’æº€ãŸã—ã¦ã„ãªã„
 			return;
 		}
 
-		if (m_load_state == LoadState::Loaded) {// ƒ[ƒh¬Œ÷AƒV[ƒ“Ø‚è‘Ö‚¦Às
+		if (m_load_state == LoadState::Loaded) {// ãƒ­ãƒ¼ãƒ‰æˆåŠŸã€ã‚·ãƒ¼ãƒ³åˆ‡ã‚Šæ›¿ãˆå®Ÿè¡Œ
 
-			// Œ»İ‚ÌƒV[ƒ“‚ğŒÃ‚¢ƒV[ƒ“‚Æ‚µ‚Äˆê•Ï”‚ÉˆÚ“®
+			// ç¾åœ¨ã®ã‚·ãƒ¼ãƒ³ã‚’å¤ã„ã‚·ãƒ¼ãƒ³ã¨ã—ã¦ä¸€æ™‚å¤‰æ•°ã«ç§»å‹•
 			old_scene_to_uninit = std::move(m_scene);
 
-			// ƒ[ƒhŠ®—¹‚µ‚½V‚µ‚¢ƒV[ƒ“‚ğŒ»İ‚ÌƒV[ƒ“‚Æ‚µ‚Äİ’è
-			m_scene = std::move(m_loaded_scene_result); // m_loaded_scene_result ‚Í‚±‚±‚Å nullptr ‚É‚È‚é
+			// ãƒ­ãƒ¼ãƒ‰å®Œäº†ã—ãŸæ–°ã—ã„ã‚·ãƒ¼ãƒ³ã‚’ç¾åœ¨ã®ã‚·ãƒ¼ãƒ³ã¨ã—ã¦è¨­å®š
+			m_scene = std::move(m_loaded_scene_result); // m_loaded_scene_result ã¯ã“ã“ã§ nullptr ã«ãªã‚‹
 
-			// ƒ[ƒhó‘Ô‚ÆƒXƒƒbƒv—v‹ƒtƒ‰ƒO‚ğƒŠƒZƒbƒg
-			resetLoadState(); // ƒ[ƒhó‘Ô‚ğIdle‚É–ß‚·
+	if (m_loading_thread.joinable()) {
+		m_loading_thread.join();
+	}
+
+	m_loading_thread = std::thread(&Manager::LoadingTask, this, std::move(scene_to_load));
 			m_scene_swap_flag = false;
 
 		}
 		else if (m_load_state == LoadState::Error) {
-			// ƒ[ƒh’†‚ÉƒGƒ‰[‚ª”­¶‚µ‚Ä‚¢‚½ê‡
-			// ƒGƒ‰[ó‘Ô‚ğƒNƒŠƒA‚µAƒ[ƒhó‘Ô‚ğƒŠƒZƒbƒg
-			resetLoadState(); // ƒ[ƒhó‘Ô‚ğIdle‚É–ß‚·
-			m_scene_swap_flag = false; // ƒXƒƒbƒv—v‹‚àƒLƒƒƒ“ƒZƒ‹
-			// ƒGƒ‰[ƒV[ƒ“‚É‘JˆÚ‚·‚é‚È‚Ç‚ÌƒŠƒJƒoƒŠˆ—‚ğ‚±‚±‚É’Ç‰Á‚·‚é‚±‚Æ‚à‰Â”\
+			// ãƒ­ãƒ¼ãƒ‰ä¸­ã«ã‚¨ãƒ©ãƒ¼ãŒç™ºç”Ÿã—ã¦ã„ãŸå ´åˆ
+			// ã‚¨ãƒ©ãƒ¼çŠ¶æ…‹ã‚’ã‚¯ãƒªã‚¢ã—ã€ãƒ­ãƒ¼ãƒ‰çŠ¶æ…‹ã‚’ãƒªã‚»ãƒƒãƒˆ
+			resetLoadState(); // ãƒ­ãƒ¼ãƒ‰çŠ¶æ…‹ã‚’Idleã«æˆ»ã™
+			m_scene_swap_flag = false; // ã‚¹ãƒ¯ãƒƒãƒ—è¦æ±‚ã‚‚ã‚­ãƒ£ãƒ³ã‚»ãƒ«
+			// ã‚¨ãƒ©ãƒ¼ã‚·ãƒ¼ãƒ³ã«é·ç§»ã™ã‚‹ãªã©ã®ãƒªã‚«ãƒãƒªå‡¦ç†ã‚’ã“ã“ã«è¿½åŠ ã™ã‚‹ã“ã¨ã‚‚å¯èƒ½
 		}
 
-	} // mutex ƒƒbƒN ‰ğ•ú
+	} // mutex ãƒ­ãƒƒã‚¯ è§£æ”¾
 
-	// mutex‰ğ•úŒãAŒÃ‚¢ƒV[ƒ“‚ÌUnInit‚ğŒÄ‚Ño‚· (ŠÔ‚ª‚©‚©‚é‰Â”\«‚ª‚ ‚é‚½‚ß)
+	// mutexè§£æ”¾å¾Œã€å¤ã„ã‚·ãƒ¼ãƒ³ã®UnInitã‚’å‘¼ã³å‡ºã™ (æ™‚é–“ãŒã‹ã‹ã‚‹å¯èƒ½æ€§ãŒã‚ã‚‹ãŸã‚)
 	if (old_scene_to_uninit) {
 		old_scene_to_uninit->UnInit();
 	}
@@ -205,13 +221,13 @@ void Manager::SwapScene() {
 
 
 void Manager::CallLoading(std::unique_ptr<Scene> scene_to_load) {
-	// unique_ptr ‚ÌŠ—LŒ ‚Í std::thread ‚ÌƒRƒ“ƒXƒgƒ‰ƒNƒ^‚Éƒ€[ƒu‚Å“n‚·
-	// ”wŒiƒXƒŒƒbƒh‚ÅÀs‚·‚éƒƒ“ƒoŠÖ”‚Æ‚»‚Ìˆø” (Manager*, unique_ptr<Scene>) ‚ğw’è
+	// unique_ptr ã®æ‰€æœ‰æ¨©ã¯ std::thread ã®ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿ã«ãƒ ãƒ¼ãƒ–ã§æ¸¡ã™
+	// èƒŒæ™¯ã‚¹ãƒ¬ãƒƒãƒ‰ã§å®Ÿè¡Œã™ã‚‹ãƒ¡ãƒ³ãƒé–¢æ•°ã¨ãã®å¼•æ•° (Manager*, unique_ptr<Scene>) ã‚’æŒ‡å®š
 	std::thread loading_thread(&Manager::LoadingTask, this, std::move(scene_to_load));
-	loading_thread.detach(); // ƒXƒŒƒbƒh‚ğƒfƒ^ƒbƒ`‚µ‚ÄAManager‚Ì¶‘¶ŠúŠÔ‚ÆØ‚è—£‚·
+	loading_thread.detach(); // ã‚¹ãƒ¬ãƒƒãƒ‰ã‚’ãƒ‡ã‚¿ãƒƒãƒã—ã¦ã€Managerã®ç”Ÿå­˜æœŸé–“ã¨åˆ‡ã‚Šé›¢ã™
 
 	{
 		std::lock_guard<std::mutex> lock(m_state_mutex);
-		m_load_state = LoadState::Loading; // ƒ[ƒhŠJnó‘Ô‚É‘JˆÚ
+		m_load_state = LoadState::Loading; // ãƒ­ãƒ¼ãƒ‰é–‹å§‹çŠ¶æ…‹ã«é·ç§»
 	}
 }

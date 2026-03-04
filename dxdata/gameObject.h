@@ -1,6 +1,6 @@
 /**
  * @file   manager.h
- * @brief  ƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚ÌŠî–{‹@”\‚ð“Z‚ß‚½Šî’êƒNƒ‰ƒX‚Ìƒwƒbƒ_[
+ * @brief  ã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®åŸºæœ¬æ©Ÿèƒ½ã‚’çºã‚ãŸåŸºåº•ã‚¯ãƒ©ã‚¹ã®ãƒ˜ãƒƒãƒ€ãƒ¼
  * @author Taiju Kobayashi
  * @date   2024/07
  */
@@ -9,7 +9,7 @@ class Component;
 class Scene;
 #include "transform.h"
 
-/// @brief@ƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚ÌŠî–{‹@”\‚ð“Z‚ß‚½Šî’êƒNƒ‰ƒX
+/// @briefã€€ã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®åŸºæœ¬æ©Ÿèƒ½ã‚’çºã‚ãŸåŸºåº•ã‚¯ãƒ©ã‚¹
 class GameObject {
 
 public:
@@ -52,20 +52,16 @@ public:
 		m_destroy_flag = true;
 	}
 
-	bool Destroy() {
-		if (m_destroy_flag) {
-			UnInit();
-			delete this;
-			return true;
-		}
-		else
-		{
-			return false;
-		}
+	bool Destroy() const {
+		return m_destroy_flag;
 	}
 
-	//ID‚ªÝ’è‚³‚ê‚Ä‚¢‚½ê‡A“o˜^Ï‚Ý‚Ì”’l‚ª•Ô‚Á‚Ä‚­‚é
-	int SetGetGeneId(int num) {
+			delete comp;
+		if (m_transform) {
+			m_transform->UnInit();
+			delete m_transform;
+			m_transform = nullptr;
+		}
 
 		if (m_gene_id < 0) {
 			m_gene_id = num;
@@ -107,8 +103,8 @@ protected:
 	template <typename T>
 	T* GetComponent()
 	{
-		//Žw’è‚³‚ê‚½ƒNƒ‰ƒX‚ÌƒRƒ“ƒ|[ƒlƒ“ƒg‚ð
-		//ƒŠƒXƒg“à‚©‚çÅ‰‚ÉŒ©‚Â‚©‚Á‚½‚à‚Ì‚Ìƒ|ƒCƒ“ƒ^‚ð•Ô‚·
+		//æŒ‡å®šã•ã‚ŒãŸã‚¯ãƒ©ã‚¹ã®ã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’
+		//ãƒªã‚¹ãƒˆå†…ã‹ã‚‰æœ€åˆã«è¦‹ã¤ã‹ã£ãŸã‚‚ã®ã®ãƒã‚¤ãƒ³ã‚¿ã‚’è¿”ã™
 		for (Component* obj : m_Components)
 		{
 			T* ret = dynamic_cast<T*>(obj);
