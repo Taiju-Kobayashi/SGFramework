@@ -1,8 +1,8 @@
 /**
  * @file   scene.h
- * @brief  ƒQ[ƒ€ê–Ê“à(ƒ^ƒCƒgƒ‹“™)‚ÌƒIƒuƒWƒFƒNƒg‚ğŠÇ—‚·‚éƒV[ƒ“‚ÌŠî’êƒNƒ‰ƒX
+ * @brief  ã‚²ãƒ¼ãƒ å ´é¢å†…(ã‚¿ã‚¤ãƒˆãƒ«ç­‰)ã®ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ç®¡ç†ã™ã‚‹ã‚·ãƒ¼ãƒ³ã®åŸºåº•ã‚¯ãƒ©ã‚¹
  * @author Taiju Kobayashi
- * @date   2024/12@
+ * @date   2024/12ã€€
  */
 #pragma once
 #ifndef _SCENE_H_
@@ -20,7 +20,7 @@
 #include "transform.h"
 class GameObject;
 
-/// @brief@ƒQ[ƒ€ê–Ê“à(ƒ^ƒCƒgƒ‹“™)‚ÌƒIƒuƒWƒFƒNƒg‚ğŠÇ—‚·‚éƒV[ƒ“‚ÌŠî’êƒNƒ‰ƒX
+/// @briefã€€ã‚²ãƒ¼ãƒ å ´é¢å†…(ã‚¿ã‚¤ãƒˆãƒ«ç­‰)ã®ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ç®¡ç†ã™ã‚‹ã‚·ãƒ¼ãƒ³ã®åŸºåº•ã‚¯ãƒ©ã‚¹
 class Scene
 {
 public:
@@ -28,21 +28,21 @@ public:
 
 	virtual void Init() {};
 
-	/// @brief ƒxƒNƒ^[‚Ì—v‘fŒ^–¼‚ğæ“¾
-	/// @tparam T ƒxƒNƒ^[‚Ì—v‘fŒ^
-	/// @param my_list —v‘fŒ^–¼‚ğæ“¾‚·‚éƒxƒNƒ^[
-	/// @return —v‘fŒ^–¼
+	/// @brief ãƒ™ã‚¯ã‚¿ãƒ¼ã®è¦ç´ å‹åã‚’å–å¾—
+	/// @tparam T ãƒ™ã‚¯ã‚¿ãƒ¼ã®è¦ç´ å‹
+	/// @param my_list è¦ç´ å‹åã‚’å–å¾—ã™ã‚‹ãƒ™ã‚¯ã‚¿ãƒ¼
+	/// @return è¦ç´ å‹å
 	template <typename T>
 	std::string GetElementType(std::vector<T> my_list) {
 		std::string cname(typeid(T).name());
 		return cname;
 	}
 
-	/// @brief ƒeƒ“ƒvƒŒ[ƒgŠÖ”Bw’è‚µ‚½ƒŒƒCƒ„[‚ÉƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚ğ’Ç‰Á‚·‚éB
-	/// @tparam T ƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚ÌŒ^
-	/// @param layernum ƒŒƒCƒ„[”Ô†
-	/// @return ’Ç‰Á‚³‚ê‚½ƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚Ìƒ|ƒCƒ“ƒ^B’Ç‰Á‚É¸”s‚µ‚½ê‡‚Í nullptr ‚ğ•Ô‚·B
-	template <typename T>//ƒeƒ“ƒvƒŒ[ƒg
+	/// @brief ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆé–¢æ•°ã€‚æŒ‡å®šã—ãŸãƒ¬ã‚¤ãƒ¤ãƒ¼ã«ã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’è¿½åŠ ã™ã‚‹ã€‚
+	/// @tparam T ã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®å‹
+	/// @param layernum ãƒ¬ã‚¤ãƒ¤ãƒ¼ç•ªå·
+	/// @return è¿½åŠ ã•ã‚ŒãŸã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ãƒã‚¤ãƒ³ã‚¿ã€‚è¿½åŠ ã«å¤±æ•—ã—ãŸå ´åˆã¯ nullptr ã‚’è¿”ã™ã€‚
+	template <typename T>//ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆ
 	T* AddGameObject(unsigned int layernum) {
 		if (MAX_LAYER_NUM <= layernum)return nullptr;
 		T* obj = new T();
@@ -57,9 +57,9 @@ public:
 	}
 
 
-	/// @brief ƒeƒ“ƒvƒŒ[ƒgŠÖ”Bw’è‚µ‚½Œ^‚ÌƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚ğæ“¾‚·‚éBÅ‰‚ÉŒ©‚Â‚©‚Á‚½‚à‚Ì‚ğ•Ô‚·B
-   /// @tparam T ƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚ÌŒ^
-   /// @return Œ©‚Â‚©‚Á‚½ƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚Ìƒ|ƒCƒ“ƒ^BŒ©‚Â‚©‚ç‚È‚©‚Á‚½ê‡‚Í nullptr ‚ğ•Ô‚·B
+	/// @brief ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆé–¢æ•°ã€‚æŒ‡å®šã—ãŸå‹ã®ã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’å–å¾—ã™ã‚‹ã€‚æœ€åˆã«è¦‹ã¤ã‹ã£ãŸã‚‚ã®ã‚’è¿”ã™ã€‚
+   /// @tparam T ã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®å‹
+   /// @return è¦‹ã¤ã‹ã£ãŸã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ãƒã‚¤ãƒ³ã‚¿ã€‚è¦‹ã¤ã‹ã‚‰ãªã‹ã£ãŸå ´åˆã¯ nullptr ã‚’è¿”ã™ã€‚
 	template <typename T>
 	T* GetGameObject()
 	{
@@ -76,9 +76,9 @@ public:
 		return nullptr;
 	}
 
-	/// @brief ƒeƒ“ƒvƒŒ[ƒgŠÖ”Bw’è‚µ‚½Œ^‚ÌƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚ğ‚·‚×‚Äæ“¾‚·‚éB
-	/// @tparam T ƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚ÌŒ^
-	/// @return Œ©‚Â‚©‚Á‚½ƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚Ìƒ|ƒCƒ“ƒ^‚ÌƒxƒNƒ^[B
+	/// @brief ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆé–¢æ•°ã€‚æŒ‡å®šã—ãŸå‹ã®ã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ã™ã¹ã¦å–å¾—ã™ã‚‹ã€‚
+	/// @tparam T ã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®å‹
+	/// @return è¦‹ã¤ã‹ã£ãŸã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ãƒã‚¤ãƒ³ã‚¿ã®ãƒ™ã‚¯ã‚¿ãƒ¼ã€‚
 	template<typename T>
 	std::vector<T*> GetGameObjects() {
 		std::vector<T*> tmp{};
@@ -94,10 +94,10 @@ public:
 		return tmp;
 	}
 
-	/// @brief ƒeƒ“ƒvƒŒ[ƒgŠÖ”Bw’è‚µ‚½ƒŒƒCƒ„[‚Ìw’è‚µ‚½Œ^‚ÌƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚ğ‚·‚×‚Äæ“¾‚·‚éB
-	/// @tparam T ƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚ÌŒ^
-	/// @param LayerNum ƒŒƒCƒ„[”Ô†
-	/// @return Œ©‚Â‚©‚Á‚½ƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚Ìƒ|ƒCƒ“ƒ^‚ÌƒxƒNƒ^[B
+	/// @brief ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆé–¢æ•°ã€‚æŒ‡å®šã—ãŸãƒ¬ã‚¤ãƒ¤ãƒ¼ã®æŒ‡å®šã—ãŸå‹ã®ã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ã™ã¹ã¦å–å¾—ã™ã‚‹ã€‚
+	/// @tparam T ã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®å‹
+	/// @param LayerNum ãƒ¬ã‚¤ãƒ¤ãƒ¼ç•ªå·
+	/// @return è¦‹ã¤ã‹ã£ãŸã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã®ãƒã‚¤ãƒ³ã‚¿ã®ãƒ™ã‚¯ã‚¿ãƒ¼ã€‚
 	template<typename T>
 	std::vector<T*> GetGameObjects(int LayerNum) {
 		std::vector<T*> tmp{};
@@ -119,7 +119,7 @@ public:
 			for (GameObject* pm : _Objects[i])
 			{
 				pm->ClearComponent();
-				pm->UnInit();//ƒ|ƒŠƒ‚[ƒtƒBƒYƒ€
+				pm->UnInit();//ãƒãƒªãƒ¢ãƒ¼ãƒ•ã‚£ã‚ºãƒ 
 				delete pm;
 			}
 			_Objects[i].clear();
@@ -129,7 +129,7 @@ public:
 	};
 	virtual void Update() {};
 
-	/// @brief	•`‰æ‘Oˆ—
+	/// @brief	æç”»å‰å‡¦ç†
 	virtual void PreDraw() {
 		for (int i = 0; i < MAX_LAYER_NUM; i++)
 		{
@@ -140,7 +140,7 @@ public:
 		}
 	}
 
-	/// @brief	•`‰æˆ—
+	/// @brief	æç”»å‡¦ç†
 	virtual void Draw() {
 		for (int i = 0; i < (MAX_LAYER_NUM - 1); i++)
 		{
@@ -175,13 +175,26 @@ public:
 				}
 				og->Update();
 			}
-			std::erase_if(_Objects[i], [](GameObject* go) {return go->Destroy(); });
+
+			auto& layer = _Objects[i];
+			for (auto it = layer.begin(); it != layer.end();) {
+				if (!(*it)->Destroy()) {
+					++it;
+					continue;
+				}
+
+				GameObject* dead = *it;
+				dead->ClearComponent();
+				dead->UnInit();
+				delete dead;
+				it = layer.erase(it);
+			}
 		}
 	};
 protected:
-	// ƒQ[ƒ€ƒIƒuƒWƒFƒNƒg‚ğŠi”[‚·‚éƒxƒNƒ^[‚Ì”z—ñB3‚Â‚ÌƒŒƒCƒ„[‚ğ‚ÂB
+	// ã‚²ãƒ¼ãƒ ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’æ ¼ç´ã™ã‚‹ãƒ™ã‚¯ã‚¿ãƒ¼ã®é…åˆ—ã€‚3ã¤ã®ãƒ¬ã‚¤ãƒ¤ãƒ¼ã‚’æŒã¤ã€‚
 	std::vector<GameObject*> _Objects[MAX_LAYER_NUM];
-	//‰Â•Ï”‚ÌƒŒƒCƒ„[‚É‘Î‰‚³‚¹‚éÀ‘•“r’†‚Ì”z—ñ(Œ»ó–¢g—p)
+	//å¯å¤‰æ•°ã®ãƒ¬ã‚¤ãƒ¤ãƒ¼ã«å¯¾å¿œã•ã›ã‚‹å®Ÿè£…é€”ä¸­ã®é…åˆ—(ç¾çŠ¶æœªä½¿ç”¨)
 	std::vector<std::vector<GameObject*>> _Tests;
 
 };
